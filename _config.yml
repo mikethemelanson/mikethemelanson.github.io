@@ -1,0 +1,8 @@
+title: "Suburban Cycling"
+author: "oldmanyellsatcars"
+description: "Rides, routes, and reflections from the suburbs."
+url: "https://mikethemelanson.github.io"
+
+theme: minima
+plugins:
+  - jekyll-feed

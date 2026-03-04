@@ -1,0 +1,13 @@
+.figure { margin: 1rem 0; }
+.figure img { max-width: 100%; height: auto; display: block; }
+.figcaption { font-size: 0.9rem; color: #555; margin-top: 0.35rem; }
+
+.float-left, .float-right { max-width: 45%; }
+.float-left { float: left; margin: 0.25rem 1rem 0.75rem 0; }
+.float-right { float: right; margin: 0.25rem 0 0.75rem 1rem; }
+
+.clearfix::after { content: ""; display: table; clear: both; }
+
+@media (max-width: 700px) {
+  .float-left, .float-right { float: none; max-width: 100%; margin: 1rem 0; }
+}
